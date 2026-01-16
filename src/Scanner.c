@@ -128,7 +128,7 @@ void ScanToken(Token **result, Pointer * pointer, const char *input) {
     if (isDigit(c)) {
       number(result, pointer, input);
     } else {
-      printf("Unexpeced\n");
+      
     }
     break;
   }
